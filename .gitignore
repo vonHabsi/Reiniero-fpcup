@@ -41,3 +41,28 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.ppu
+*.o
+*.s
+*.or
+*.compiled
+*.rst
+!docs/*.rst
+*.res
+
+*.dcu
+*.exe
+*.identcache
+
+*.bak
+*.local
+
+*.patch
+*.diff
+*.log
+backup/
+
+bin/*/*.ppu
+bin/*/*.s
+bin/*/*.o
