@@ -6,8 +6,10 @@
     <BuildModes Active="Default"/>
     <Units Count="39">
       <Unit0>
-        <Filename Value="fpcuparmhf.lpr"/>
+        <Filename Value="fpcuplinuxi386.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="fpcuplinuxi386"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="249"/>
         <CursorPos X="8" Y="263"/>
         <UsageCount Value="86"/>
@@ -43,6 +45,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="installerCore"/>
         <EditorIndex Value="6"/>
+        <TopLine Value="995"/>
         <CursorPos X="30" Y="951"/>
         <UsageCount Value="86"/>
         <Loaded Value="True"/>
@@ -89,8 +92,8 @@
         <Filename Value="fpcup.ini"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="9"/>
-        <TopLine Value="135"/>
-        <CursorPos X="6" Y="135"/>
+        <TopLine Value="143"/>
+        <CursorPos X="10" Y="154"/>
         <UsageCount Value="86"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Ini"/>
@@ -99,10 +102,9 @@
         <Filename Value="installermanager.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="installerManager"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="10"/>
-        <TopLine Value="130"/>
-        <CursorPos Y="146"/>
+        <TopLine Value="67"/>
+        <CursorPos X="20" Y="81"/>
         <UsageCount Value="86"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -180,8 +182,8 @@
         <Filename Value="settings.ini"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="11"/>
-        <TopLine Value="31"/>
-        <CursorPos Y="143"/>
+        <TopLine Value="174"/>
+        <CursorPos X="40" Y="227"/>
         <UsageCount Value="86"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Ini"/>
