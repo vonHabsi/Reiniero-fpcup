@@ -1,3 +1,0 @@
-#! /bin/bash
-#
-./fpcuparmhf --fpcURL='trunk' --lazURL='trunk' --fpcopt='-dFPC_ARMHF -CpARMV6 -CaEABIHF -CfVFPv2 -g -gl -O1' --lazopt='-g -gl -O1' --verbose
