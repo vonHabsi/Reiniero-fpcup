@@ -5,16 +5,17 @@ REM ###############################################
 
 ECHO.
 ECHO ==============================================
-ECHO   Fpcup with trunk and defaults
+ECHO   Fpcup default
 ECHO ==============================================
 ECHO.
 
 if EXIST .\fpcup.exe (
-fpcup.exe --fpcURL="trunk" --lazURL="trunk" --verbose
+fpcup.exe --fpcURL="default" --lazURL="default" --verbose
 )
 
 ECHO.
 ECHO ==============================================
-ECHO   Fpcup with trunk and defaults ready
+ECHO   Fpcup default ready
 ECHO ==============================================
 ECHO.
+PAUSE
