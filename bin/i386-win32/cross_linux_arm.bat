@@ -10,8 +10,12 @@ ECHO   Build cross compiler for linux arm
 ECHO ==============================================
 ECHO.
 
+if '%1'=='noconfirm' (
+SET wait=--noconfirm
+)
+
 if EXIST .\fpcup.exe (
-fpcup.exe --fpcURL="trunk" --lazURL="default" --ostarget="default" --cputarget="arm" --crossOPT="-CpARMV6 -CfVFPV2" --only="FPCCleanOnly,FPCBuildOnly" --skip="FPCGetOnly,lazbuild,bigide,useride"
+fpcup.exe --fpcURL="default" --lazURL="default" --ostarget="linux" --cputarget="arm" --crossOPT="-CpARMV6 -CfVFPV2" --only="FPCCleanOnly,FPCBuildOnly" --skip="FPCGetOnly,lazbuild,bigide,useride" %wait%
 )
 
 ECHO.
